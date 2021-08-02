@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteBoard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="color-section">
+                <div class="colors">
+                    <div class="black colour-selected"></div>
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                </div>
+            </div>
+            <div class="title-colours">Colours</div>
+
+            <div class="marker-width-section">
+                <div class="marker-width">
+                    <div class="w1 width-selected"><span class="l1"></span></div>
+                    <div class="w2"><span class="l2"></span></div>
+                    <div class="w3"><span class="l3"></span></div>
+                </div>
+            </div>
+            <div class="title-width">Pen Width</div>
+
+            <div class="eraser-section">
+                <div class="eraser-width">
+                    <div class="ew1"><span class="c1"></span></div>
+                    <div class="ew2"><span class="c2"></span></div>
+                    <div class="ew3"><span class="c3"></span></div>
+                </div>
+            </div>
+            <div class="title-eraser">Eraser</div>
+
+            <div class="undo-redo-section">
+                <div class="undo-redo">
+                    <div class="undo"><span class="material-icons"> undo </span></div>
+                    <div class="redo"><span class="material-icons"> redo </span></div>
+                </div>
+            </div>
+            <div class="title-undo">Undo</div>
+            <div class="title-redo">Redo</div>
+
+            <div class="eraser-pen-section">
+                <div class="eraser-pen">
+                    <div class="eraser"><span class="material-icons"> delete </span></div>
+                </div>
+            </div>
+            <div class="title-delete">Clear All</div>
+
+            <input type="file" name="" id="file" style="display: none;">
+                <div class="upload-section">
+                <label for="file">
+                    <div class="upload">
+                        <div class="upload-option"><span class="material-icons"> upload </span></div>
+                    </div>
+                </label>
+                </div>
+            <div class="title-upload">Upload</div>
+
+            <div class="download-section">
+                <div class="download">
+                    <div class="download-option"><span class="material-icons"> download </span></div>
+                </div>
+            </div>
+            <div class="title-download">Download</div>
+        </div>
+        <canvas></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
